@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.zxyj.entity">
+    <class name="Dustbin" table="dustbin">
+        <id name="id">
+           <!--  <generator class="native"/> -->
+        </id>
+        <property name="address" length="32" not-null="false" unique="true"/>
+        <property name="description" length="64" not-null="false"/>
+        <property name="create_time" length="64" not-null="false"/>
+        <property name="is_visible" length="64" not-null="false"/>
+        <property name="lat" length="64" not-null="false"/>
+        <property name="lng" length="64" not-null="false"/>
+        <property name="status" length="64" not-null="false"/>
+
+    </class>
+</hibernate-mapping>
