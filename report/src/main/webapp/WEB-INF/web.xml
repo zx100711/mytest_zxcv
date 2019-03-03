@@ -49,7 +49,20 @@ version="3.0">
         </jsp-property-group>
     </jsp-config>
     
-    
+    <servlet>
+		<servlet-name>userRegisterTable</servlet-name>
+		<jsp-file>/WEB-INF/view/userRegisterTable.jsp</jsp-file>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>userRegisterTable</servlet-name>
+		<url-pattern>/userRegisterTable</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
     
 <!--     Spring的OpenSessionInView实现  
 <filter>  

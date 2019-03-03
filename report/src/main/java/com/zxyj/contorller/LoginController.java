@@ -22,7 +22,7 @@ public class LoginController {
 */
     @RequestMapping(method=RequestMethod.GET)
     public String get(){ 
-        return "userRegisterTable"; 
+        return "bootstrap"; 
     }
     
     @RequestMapping(method=RequestMethod.POST)
